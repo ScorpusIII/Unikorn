@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0331DB9F282187E500518E4A /* UnikornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DB9E282187E500518E4A /* UnikornApp.swift */; };
+		0331DBA1282187E500518E4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBA0282187E500518E4A /* ContentView.swift */; };
+		0331DBA3282187E500518E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0331DBA2282187E500518E4A /* Assets.xcassets */; };
+		0331DBA6282187E500518E4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0331DBA5282187E500518E4A /* Preview Assets.xcassets */; };
+		0331DBA8282187E500518E4A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBA7282187E500518E4A /* Persistence.swift */; };
+		0331DBAB282187E500518E4A /* Unikorn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBA9282187E500518E4A /* Unikorn.xcdatamodeld */; };
+		0331DBB5282187E600518E4A /* UnikornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBB4282187E600518E4A /* UnikornTests.swift */; };
+		0331DBBF282187E600518E4A /* UnikornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBBE282187E600518E4A /* UnikornUITests.swift */; };
+		0331DBC1282187E600518E4A /* UnikornUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DBC0282187E600518E4A /* UnikornUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0331DBB1282187E600518E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0331DB93282187E500518E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0331DB9A282187E500518E4A;
+			remoteInfo = Unikorn;
+		};
+		0331DBBB282187E600518E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0331DB93282187E500518E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0331DB9A282187E500518E4A;
+			remoteInfo = Unikorn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0331DB9B282187E500518E4A /* Unikorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unikorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0331DB9E282187E500518E4A /* UnikornApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornApp.swift; sourceTree = "<group>"; };
+		0331DBA0282187E500518E4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0331DBA2282187E500518E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0331DBA5282187E500518E4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0331DBA7282187E500518E4A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0331DBAA282187E500518E4A /* Unikorn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Unikorn.xcdatamodel; sourceTree = "<group>"; };
+		0331DBB0282187E600518E4A /* UnikornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnikornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0331DBB4282187E600518E4A /* UnikornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornTests.swift; sourceTree = "<group>"; };
+		0331DBBA282187E600518E4A /* UnikornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnikornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0331DBBE282187E600518E4A /* UnikornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornUITests.swift; sourceTree = "<group>"; };
+		0331DBC0282187E600518E4A /* UnikornUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0331DB98282187E500518E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBAD282187E600518E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBB7282187E600518E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0331DB92282187E500518E4A = {
+			isa = PBXGroup;
+			children = (
+				0331DB9D282187E500518E4A /* Unikorn */,
+				0331DBB3282187E600518E4A /* UnikornTests */,
+				0331DBBD282187E600518E4A /* UnikornUITests */,
+				0331DB9C282187E500518E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0331DB9C282187E500518E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0331DB9B282187E500518E4A /* Unikorn.app */,
+				0331DBB0282187E600518E4A /* UnikornTests.xctest */,
+				0331DBBA282187E600518E4A /* UnikornUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0331DB9D282187E500518E4A /* Unikorn */ = {
+			isa = PBXGroup;
+			children = (
+				0331DB9E282187E500518E4A /* UnikornApp.swift */,
+				0331DBA0282187E500518E4A /* ContentView.swift */,
+				0331DBA2282187E500518E4A /* Assets.xcassets */,
+				0331DBA7282187E500518E4A /* Persistence.swift */,
+				0331DBA9282187E500518E4A /* Unikorn.xcdatamodeld */,
+				0331DBA4282187E500518E4A /* Preview Content */,
+			);
+			path = Unikorn;
+			sourceTree = "<group>";
+		};
+		0331DBA4282187E500518E4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0331DBA5282187E500518E4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0331DBB3282187E600518E4A /* UnikornTests */ = {
+			isa = PBXGroup;
+			children = (
+				0331DBB4282187E600518E4A /* UnikornTests.swift */,
+			);
+			path = UnikornTests;
+			sourceTree = "<group>";
+		};
+		0331DBBD282187E600518E4A /* UnikornUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0331DBBE282187E600518E4A /* UnikornUITests.swift */,
+				0331DBC0282187E600518E4A /* UnikornUITestsLaunchTests.swift */,
+			);
+			path = UnikornUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0331DB9A282187E500518E4A /* Unikorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0331DBC4282187E600518E4A /* Build configuration list for PBXNativeTarget "Unikorn" */;
+			buildPhases = (
+				0331DB97282187E500518E4A /* Sources */,
+				0331DB98282187E500518E4A /* Frameworks */,
+				0331DB99282187E500518E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unikorn;
+			productName = Unikorn;
+			productReference = 0331DB9B282187E500518E4A /* Unikorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0331DBAF282187E600518E4A /* UnikornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0331DBC7282187E600518E4A /* Build configuration list for PBXNativeTarget "UnikornTests" */;
+			buildPhases = (
+				0331DBAC282187E600518E4A /* Sources */,
+				0331DBAD282187E600518E4A /* Frameworks */,
+				0331DBAE282187E600518E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0331DBB2282187E600518E4A /* PBXTargetDependency */,
+			);
+			name = UnikornTests;
+			productName = UnikornTests;
+			productReference = 0331DBB0282187E600518E4A /* UnikornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0331DBB9282187E600518E4A /* UnikornUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0331DBCA282187E600518E4A /* Build configuration list for PBXNativeTarget "UnikornUITests" */;
+			buildPhases = (
+				0331DBB6282187E600518E4A /* Sources */,
+				0331DBB7282187E600518E4A /* Frameworks */,
+				0331DBB8282187E600518E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0331DBBC282187E600518E4A /* PBXTargetDependency */,
+			);
+			name = UnikornUITests;
+			productName = UnikornUITests;
+			productReference = 0331DBBA282187E600518E4A /* UnikornUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0331DB93282187E500518E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0331DB9A282187E500518E4A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0331DBAF282187E600518E4A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0331DB9A282187E500518E4A;
+					};
+					0331DBB9282187E600518E4A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0331DB9A282187E500518E4A;
+					};
+				};
+			};
+			buildConfigurationList = 0331DB96282187E500518E4A /* Build configuration list for PBXProject "Unikorn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0331DB92282187E500518E4A;
+			productRefGroup = 0331DB9C282187E500518E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0331DB9A282187E500518E4A /* Unikorn */,
+				0331DBAF282187E600518E4A /* UnikornTests */,
+				0331DBB9282187E600518E4A /* UnikornUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0331DB99282187E500518E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331DBA6282187E500518E4A /* Preview Assets.xcassets in Resources */,
+				0331DBA3282187E500518E4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBAE282187E600518E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBB8282187E600518E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0331DB97282187E500518E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331DBA8282187E500518E4A /* Persistence.swift in Sources */,
+				0331DBA1282187E500518E4A /* ContentView.swift in Sources */,
+				0331DBAB282187E500518E4A /* Unikorn.xcdatamodeld in Sources */,
+				0331DB9F282187E500518E4A /* UnikornApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBAC282187E600518E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331DBB5282187E600518E4A /* UnikornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0331DBB6282187E600518E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0331DBBF282187E600518E4A /* UnikornUITests.swift in Sources */,
+				0331DBC1282187E600518E4A /* UnikornUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0331DBB2282187E600518E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0331DB9A282187E500518E4A /* Unikorn */;
+			targetProxy = 0331DBB1282187E600518E4A /* PBXContainerItemProxy */;
+		};
+		0331DBBC282187E600518E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0331DB9A282187E500518E4A /* Unikorn */;
+			targetProxy = 0331DBBB282187E600518E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0331DBC2282187E600518E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0331DBC3282187E600518E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0331DBC5282187E600518E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unikorn/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.Unikorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0331DBC6282187E600518E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unikorn/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.Unikorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0331DBC8282187E600518E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.UnikornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unikorn.app/Unikorn";
+			};
+			name = Debug;
+		};
+		0331DBC9282187E600518E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.UnikornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unikorn.app/Unikorn";
+			};
+			name = Release;
+		};
+		0331DBCB282187E600518E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.UnikornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unikorn;
+			};
+			name = Debug;
+		};
+		0331DBCC282187E600518E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlayterJameson.UnikornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unikorn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0331DB96282187E500518E4A /* Build configuration list for PBXProject "Unikorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331DBC2282187E600518E4A /* Debug */,
+				0331DBC3282187E600518E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0331DBC4282187E600518E4A /* Build configuration list for PBXNativeTarget "Unikorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331DBC5282187E600518E4A /* Debug */,
+				0331DBC6282187E600518E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0331DBC7282187E600518E4A /* Build configuration list for PBXNativeTarget "UnikornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331DBC8282187E600518E4A /* Debug */,
+				0331DBC9282187E600518E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0331DBCA282187E600518E4A /* Build configuration list for PBXNativeTarget "UnikornUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0331DBCB282187E600518E4A /* Debug */,
+				0331DBCC282187E600518E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0331DBA9282187E500518E4A /* Unikorn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0331DBAA282187E500518E4A /* Unikorn.xcdatamodel */,
+			);
+			currentVersion = 0331DBAA282187E500518E4A /* Unikorn.xcdatamodel */;
+			path = Unikorn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0331DB93282187E500518E4A /* Project object */;
+}
