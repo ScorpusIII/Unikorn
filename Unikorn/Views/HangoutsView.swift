@@ -9,7 +9,22 @@ import SwiftUI
 
 struct HangoutsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("When you out form it's saved under the event...")
+        
+        //Maybe a walkthrough out the app
+        //Maybe so how may people are attedning,
+        // Have options from buubles
+        // Formate bubbles that the envent organizor can create.
+        // To callses
+        
+        
+        // How important
+        //Payapl
+        //Apple Pay
+    
+        // Maybe a walkthrough
+        
+        
     }
 }
 
